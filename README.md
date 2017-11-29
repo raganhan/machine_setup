@@ -1,3 +1,3 @@
-# machine
+# machine_setup
 
-Machine setup, powered by Ansible, forked from https://github.com/caarlos0/dotfiles
+Initially forked from https://github.com/caarlos0/machine
