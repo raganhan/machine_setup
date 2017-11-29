@@ -14,6 +14,8 @@
     - pstree
     - unrar
     - watch
+    - exa
+    - diff-so-fancy
 
 - name: Install core packages
   package: name={{ item }}
@@ -39,4 +41,3 @@
   homebrew_cask: name={{ item }}
   with_items:
     - day-o
-    

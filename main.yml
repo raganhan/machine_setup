@@ -6,7 +6,7 @@
     # essentials:
     - import_tasks: tasks/homebrew.yml
     - import_tasks: tasks/core.yml
-    # - import_tasks: tasks/dotfiles.yml
+    - import_tasks: tasks/dotfiles.yml
 
     - import_tasks: tasks/atom.yml
     - import_tasks: tasks/terminal.yml
