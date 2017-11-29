@@ -9,6 +9,7 @@
     - import_tasks: tasks/dotfiles.yml
 
     - import_tasks: tasks/atom.yml
+    - import_tasks: tasks/code.yml
     - import_tasks: tasks/terminal.yml
     - import_tasks: tasks/docker.yml
 

@@ -23,4 +23,4 @@ python --version
 ansible --version
 ansible-playbook main.yml --ask-become-pass
 
-# test -d ~/.dotfiles && cd $_ && ./script/bootstrap
+test -d ~/.dotfiles && cd $_ && ./script/bootstrap
