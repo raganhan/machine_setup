@@ -1,8 +1,0 @@
-- name: Install Python2
-  package: name=python
-
-- name: Install Python3
-  package: name=python3
-
-- name: Install PyEnv
-  package: name=pyenv

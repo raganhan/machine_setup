@@ -1,0 +1,7 @@
+- name: Add Racket ppa
+  when: is_ubuntu
+  apt_repository:
+    repo: ppa:plt/racket
+- name: Install Racket
+  package: name=racket
+  when: is_ubuntu

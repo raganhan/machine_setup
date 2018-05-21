@@ -1,2 +1,3 @@
 - name: Install Jetbrains-Toolbox
   homebrew_cask: name=jetbrains-toolbox
+  when: is_osx
